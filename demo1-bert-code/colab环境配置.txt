@@ -1,0 +1,61 @@
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My\ Drive
+ 
+# List files to make sure we're in the expected directory.
+# Your output will look different, showing your own Drive files here.
+!ls
+import tensorflow as tf
+tf.test.gpu_device_name()
+
+
+!python setup.py install
+!pyrouge_set_rouge_path '/content/drive/My Drive/rouge/tools/ROUGE-1.5.5'
+!pip3 install torch torchvision
+!pip3 install rouge 
+!git clone https://github.com/andersjo/pyrouge.git 
+ 
+!pyrouge_set_rouge_path /home/eric/Documents/pyrouge/tools/ROUGE-1.5.5
+! sudo pip install pyrouge
+! pyrouge_set_rouge_path /content/drive/MyDrive/pyrouge/tools/ROUGE-1.5.5
+%cd /content/drive/My\ Drive
+%cd pyrouge/tools/ROUGE-1.5.5/data
+! rm WordNet-2.0.exc.db
+
+!perl ./WordNet-2.0-Exceptions/buildExeptionDB.pl ./WordNet-2.0-Exceptions ./smart_common_words.txt ./WordNet-2.0.exc.db
+! chmod 777 ../ROUGE-1.5.5.pl
+!cpan install XML::DOM
+%cd /content/drive/My\ Drive/pacsum-with-chinese
+
+
+
+本机适配：
+
+
+from google.colab import drive
+drive.mount('/content/drive')
+%cd /content/drive/My\ Drive
+ 
+# List files to make sure we're in the expected directory.
+# Your output will look different, showing your own Drive files here.
+!ls
+import tensorflow as tf
+tf.test.gpu_device_name()
+
+
+!python setup.py install
+!pyrouge_set_rouge_path '/content/drive/My Drive/rouge/tools/ROUGE-1.5.5'
+!pip3 install torch torchvision
+!pip3 install rouge 
+!git clone https://github.com/andersjo/pyrouge.git 
+ 
+!pyrouge_set_rouge_path /content/drive/MyDrive/pyrouge/tools/ROUGE-1.5.5yes
+! sudo pip install pyrouge
+! pyrouge_set_rouge_path /content/drive/MyDrive/pyrouge/tools/ROUGE-1.5.5
+%cd /content/drive/My\ Drive
+%cd pyrouge/tools/ROUGE-1.5.5/data
+! rm WordNet-2.0.exc.db
+
+!perl ./WordNet-2.0-Exceptions/buildExeptionDB.pl ./WordNet-2.0-Exceptions ./smart_common_words.txt ./WordNet-2.0.exc.db
+! chmod 777 ../ROUGE-1.5.5.pl
+!cpan install XML::DOM

@@ -1,0 +1,11 @@
+['<']	h
+['<']	h
+[15.0, 730.0, 403.0, 730.0, 403.0, 746.0, 15.0, 746.0]	('CTW1500. In testing the threshold ths is set to 0.8', 0.9554305)
+[13.0, 750.0, 404.0, 749.0, 404.0, 765.0, 13.0, 766.0]	('Representative visible results are shown in Fig.8 (c) and', 0.94180334)
+[14.0, 769.0, 405.0, 769.0, 405.0, 786.0, 14.0, 786.0]	('(d), which indicate our method precisely detects bound', 0.95882)
+[14.0, 788.0, 404.0, 788.0, 404.0, 804.0, 14.0, 804.0]	('aries of long curved text with line-level. The quantitative', 0.95741457)
+[12.0, 806.0, 406.0, 807.0, 406.0, 826.0, 12.0, 825.0]	('results are listed in Tab. 6. Compared with the previous', 0.9803027)
+[444.0, 773.0, 834.0, 771.0, 834.0, 788.0, 444.0, 790.0]	('ary proposal network for arbitrary shape text detection', 0.9809703)
+[444.0, 791.0, 835.0, 792.0, 835.0, 810.0, 444.0, 809.0]	('which adopt anboundary proposal model to generate coarse', 0.9718127)
+[447.0, 834.0, 482.0, 834.0, 482.0, 844.0, 447.0, 844.0]	('iefor', 0.7548801)
+[576.0, 836.0, 621.0, 834.0, 621.0, 843.0, 576.0, 845.0]	('COMBI', 0.6080112)
